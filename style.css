@@ -1,0 +1,145 @@
+#mainbox{
+    height: 145px;
+    width: 200px;
+    border:1px solid gray;
+    background-color: white;
+    position: relative;
+    z-index: -1;
+}
+#blackbox{
+    background-color: #000000;
+    top: 0;
+    position: absolute;
+    height: 43px;
+    width: 200px;
+}
+#redbox{
+    background-color: #BB0000;
+    top: 50px;
+    height: 43px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+#greenbox  {
+    background-color: #006600;
+    height: 43px;
+    width: 200px;
+    top: 100px;
+    position: absolute;
+    z-index: 1;
+}
+#coatofarms{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30%;
+    margin-left: -13%;
+    height: 80%;
+    width: 25%;
+    border: 1px;
+    z-index: 1;
+    border-radius:50%;
+    background-color:#BB0000;
+}
+#leftcaret{
+    position: absolute;
+    top: 50%;
+    height: 45%;
+    width: 23%;
+    margin-top: -50%;
+    background-color: #000000;
+    border-radius: 50%;
+}
+#rightcaret{
+    position: absolute;
+    top: 50%;
+    height: 45%;
+    left: 80%;
+    width: 23%;
+    margin-top: -50%;
+    background-color: #000000;
+    border-radius: 50%;   
+}
+#centerellipse{
+    height: 13px;
+    width: 8px;
+    left: 50%;
+    top: 50%;
+    margin-left: -8%;
+    margin-top: -13%;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+#topellipse{
+    height: 40%;
+    background-color: white;
+    width: 25%;
+    left: 50%;
+    margin-left: -7px;
+    position: absolute;
+    border-radius: 50%;
+}
+#topstripe{
+    height: 100%;
+    background-color: red;
+    width: 20%;
+    left: 50%;
+    margin-left: -13%;
+    position: absolute;
+}
+#bottomellipse{
+    height: 40%;
+    background-color: white;
+    width: 25%;
+    left: 50%;
+    top: 60%;
+    margin-left: -7px;
+    position: absolute;
+    border-radius: 50%;
+}
+#bottomstripe{
+    height: 100%;
+    background-color: red;
+    width: 20%;
+    left: 50%;
+    margin-left: -13%;
+    position: absolute;
+}
+#bottomleftspear{
+    top: 75%;
+    height: 25%;
+    width: 5%;
+    background-color: white;
+    position: absolute;
+    transform: rotate(20deg);
+}
+#bottomrightspear{
+    top: 75%;
+    left:100%;
+    height: 25%;
+    width: 5%;
+    background-color: white;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+#topleftspear{
+    height: 25%;
+    width: 10%;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(-20deg); 
+}
+#toprightspear{
+    left: 100%;
+    height: 25%;
+    width: 10%;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(20deg);  
+
+}
