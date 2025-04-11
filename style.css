@@ -1,3 +1,9 @@
+.flag-container {
+  perspective: 1000px;
+  width: fit-content;
+  height: fit-content;
+}
+
 #mainbox{
     height: 145px;
     width: 200px;
@@ -5,6 +11,9 @@
     background-color: white;
     position: relative;
     z-index: -1;
+    background: linear-gradient(to right, red, white, blue); /* example tricolor */
+    animation: wave 2s infinite linear;
+    transform-origin: left center;    
 }
 #blackbox{
     background-color: #000000;
@@ -142,4 +151,21 @@
     border-radius: 50%;
     transform: rotate(20deg);  
 
+}
+@keyframes wave {
+  0% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(10deg) rotateX(2deg);
+  }
+  50% {
+    transform: rotateY(0deg);
+  }
+  75% {
+    transform: rotateY(-10deg) rotateX(-2deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
 }
