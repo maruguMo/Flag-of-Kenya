@@ -11,7 +11,6 @@
     background-color: white;
     position: relative;
     z-index: -1;
-    background: linear-gradient(to right, red, white, blue); /* example tricolor */
     animation: wave 2s infinite linear;
     transform-origin: left center;    
 }
