@@ -3,17 +3,17 @@
   width: fit-content;
   height: fit-content;
 }
-
-#mainbox{
+#mainbox {
     height: 145px;
     width: 200px;
-    border:1px solid gray;
+    border: 1px solid gray;
     background-color: white;
     position: relative;
     z-index: -1;
-    animation: wave 2s infinite linear;
-    transform-origin: left center;    
+    animation: wave 2s infinite ease-in-out;
+    transform-origin: left center;
 }
+
 #blackbox{
     background-color: #000000;
     top: 0;
